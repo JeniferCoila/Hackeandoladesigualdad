@@ -8,11 +8,9 @@ let initPage = {
     <img src="imagenes/cerebron.png" alt="" class="center-img">
      </div>
     <form class= "form-init" >
-    
     <div class="btn-div btn-bottom">
-    
-      <a href="#/Register" id="button-to-create-new-user" type="text/html"
-      class= "button center-text green">DEMUÉSTRALO ! </a>
+      <a href="#/post" id="button-to-create-new-user" type="text/html"
+      class= "button center-text green">DEMUÉSTRALO! </a>
     </div>
     </form>
     </section>
@@ -25,10 +23,10 @@ let initPage = {
     <h1>Empodérate Hoy! </h1>
     <h2>Únete a la red social de mujeres más grande de Lationoamérica! </h2>
     <div class="btn-rps">
-    <a href="#/Register"  id="btn-register" class=" btn-init  btns-beside front-btn">
+    <a href=""  id="btn-register" class=" btn-init  btns-beside front-btn">
     ¿Nuevo usuario?
     </a>
-    <a href="#/Login" id="btn-log-in" class="btn-init btns-beside front-btn">
+    <a href="" id="btn-log-in" class="btn-init btns-beside front-btn">
       Iniciar sesión
     </a>
     </div>
