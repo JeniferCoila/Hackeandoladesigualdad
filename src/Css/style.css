@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet');
 
 body{
   width: 100%;
@@ -6,6 +7,18 @@ body{
 .container {
   max-width: 98%;;
   padding: 5px 16px 5px 16px;
+}
+.type-letter{
+  font-family: 'Prosto One';
+  letter-spacing: 0.08em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  /* margin: 5px auto; */
+  margin-left: 300px;
+  margin-top: 5px;
+  display: block;
+  position: relative;
+  /* text-align: left; */
 }
 /*COLORS*/
 .black{
@@ -111,8 +124,13 @@ button:hover {
   position: relative;
 }
 .playLogo{
-  margin: 5px auto;
-  display: block;
+  /* margin: 5px auto; */
+  margin-top: 50px;
+  /* margin-right: 35px;
+  margin-left: 20x; */
+  height: 112px;
+  width:140px;
+    display: block;
   position: relative;
 }
 img.avatar {
@@ -209,7 +227,13 @@ input:invalid {
   margin: 8px;
   padding: 14px 15px;
 }
+.showme{
+  margin-top: 250px;
+  display: inline-block;
+  /* margin: auto; */
+  /* position: relative; */
 
+}
 .front-btn{
   color: #949494; /* text color */
   display: inline-block;
@@ -271,15 +295,7 @@ input:invalid {
   position: absolute;
   transition: opacity .5s ease-in;
 }
-#slide {
-  display: none;
 
-}
-#slide img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
 .set{
   display: none;
   }
@@ -294,8 +310,11 @@ input:invalid {
 }
 /* Estilos para la página de crear cuenta */
 .template-register{
-  max-width:98%;
-padding:5px 16px 5px 16px;
+  max-width:100%;
+ padding:15px 15px 15px 15px; 
+ height: 500px; 
+ width:300px; 
+background: url(../imagenes/number.png);
   }
 
 @media only screen and  (min-width: 800px)  { 
@@ -306,6 +325,7 @@ padding:5px 16px 5px 16px;
     margin:0; 
     padding:0;
   }
+
   .container-init{
     display: none;
   }
@@ -361,7 +381,7 @@ padding:5px 16px 5px 16px;
     display:none;
   }
   .rps-design-form{
-    width:450px;
+    width:350px;
     margin:auto;
     padding:10px 20px;
     margin-top:7px;
