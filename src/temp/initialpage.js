@@ -11,6 +11,7 @@ let initPage = {
      </div>
        <div class= "btn-div">
        <p class="type-letter">CEREBRÓN</p>
+       <p class="type-it">¿Sabes más que yo?</p>
        <a href="#/Post" id="button-to-create-new-user" type="text/html"
        class= "button center-text green showme">DEMUÉSTRALO ! </a>
           </div>
@@ -24,6 +25,9 @@ let initPage = {
   afterRender: async() => {}
 };
 export default initPage;
+// border-radius: 80px;
+/* <a id="btn-Sign-Out" type="text/html" class= "button rubik-font gray-back black center-text">Cerrar sesión</a> */
+
 /* <section class= "template-register rps-design-form" >
 <img src="imagenes/logo.png" alt="" class="playLogo">
  <form class="auth">
