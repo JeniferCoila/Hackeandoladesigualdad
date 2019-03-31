@@ -11,20 +11,21 @@ let song = {
     </div>
     <div class="card">
     <p class="font">
-      Es linda y apasionada <br>
-      es buena y adinerada <br>
-      no cela nunca por nada <br>
+    Estoy enamorado de cuatro babys <br>
+    Siempre me dan lo que quiero <br>
     </p>
     <p class="entry-title font">
-      y sabe hacerlo todo en la casa. 
+    Chingan cuando yo les digo 
     </p>
+    <p class="font">
+        Ninguna me pone pero
+        </p>
   </div>
-  <div class= "container-cover green"></div>
+  <div class= "container-cover green-cover"></div>
   <div class= "container-cover dark-green"></div>
   <div class= "hands-container"> 
-  <img class= "hand positive" src= "Css/img/positive-vote.png">
-  <img class= "hand negative" src= "Css/img/negative-vote.png">
-  </div>
+  <a href= "#/yes" class= "hand positive"> </a>
+  <a href= "#/no"class= "hand negative"> </a>  </div>
   </section> `;
   
     return view;

@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Karla|Rubik');
- .container {
+@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+
+.container {
   height: 100%;
 }
 
@@ -28,7 +29,7 @@
     height: 100%;
 }
 
-.green{
+.green-cover{
   background-color: rgba(101, 162, 128, 0.8);
   left:0;
   z-index: -3;
@@ -68,8 +69,9 @@
   background-position: 0 0;
   display: inline;
   transition: 0.5s ease-in-out;
-  font-family: raleway, arial, sans-serif;
+  font-family: Helvetica;
   text-transform: uppercase;
+  font-size: 15px;
 }
 p {
   color: black;
@@ -81,33 +83,39 @@ p {
 .message {
 position: fixed;
 font-family: Prosto One;
-margin-top:10%;
+margin-top:20%;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 49px;
+font-size: 20px;
+line-height: 40px;
 text-align: center;
 color: #FFFFFF;
 text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hand {
-  width: 3rem;
-  height: 3rem;
-  margin: auto 7%;
-  
+  width: 50x;
+  height: 50px;
+  margin: auto ;
+
 }
 
 .hands-container {
+  display: flex;
+}
+.positive{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
+  width: 60px;
+  height: 60px;
+  background-image : url("img/positive-vote.png");
+  background-size: cover;
 }
-.negative{
-}
-.positive {
+.negative {
+  background-image : url("img/negative-vote.png");
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  display: block;
 
 }
 
@@ -137,6 +145,129 @@ text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 } 
 
 
+body{
+  width: 100%;
+}
+.type-it{
+  font-family: 'Prosto One';
+  letter-spacing: 0.08em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  margin-top:30px;
+  text-align: center;
+  font-family: Helvetica Neue DeskInterface;
+font-size: 48px;
+
+}
+.container {
+  max-width: 98%;;
+  padding: 5px 16px 5px 16px;
+}
+.type-letter{
+  font-family: 'Prosto One';
+  letter-spacing: 0.08em;
+  font-size: 28px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  /* margin: 5px auto; */
+  margin-left: 90px;
+  margin-top: 5px;
+  display: block;
+  position: relative;
+  /* text-align: left; */
+}
+/*COLORS*/
+
+.green{
+  background-color:#9FD802;
+}
+
+.white{
+  color:rgb(255,255,255);
+}
+/* Full-width input fields */
+
+/* Set a style for all buttons */
+.button {
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 80%;
+  border-radius: 55px;
+  margin-left: 10px; 
+  /* width:20px;
+height:70px; */
+}
+/* Center the image and position the close button */
+
+.playLogo{
+  /* margin: 5px auto; */
+  margin-top: 50px;
+  /* margin-right: 35px;
+  margin-left: 20x; */
+  height: 112px;
+  width:140px;
+    display: block;
+  position: relative;
+}
+/* First screen*/
+.center-text {
+  text-align: center;
+}
+
+.showme{
+  margin-top: 100px;
+  display: inline-block;
+  /* margin: auto; */
+  /* position: relative; */
+
+}
+/* Estilos para la página de crear cuenta */
+.template-register{
+background: url(../imagenes/number.png);
+background-size: cover;
+ background-blend-mode: saturation;
+ position:fixed;
+ padding:0;
+ margin:0;
+ top:0;
+ left:0;
+ width: 100%;
+ height: 100%;
+
+}
+@media only screen and  (min-width: 800px)  { 
+/* Estilos para la página de inicio */
+  * {
+    box-sizing: border-box;
+    font-family: segoe UI;
+    margin:0; 
+    padding:0;
+  }
+   .rps-design-form{
+    width:350px;
+    margin:auto;
+    padding:10px 20px;
+    margin-top:7px;
+    border-radius:7px;
+  }
+  .template-register{
+    position: fixed;
+    background: url(../imagenes/number.png);
+    background-size: cover;
+    background-blend-mode: saturation;
+    /* position: fixed; */
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+
+ 
+} 
 
 
 
