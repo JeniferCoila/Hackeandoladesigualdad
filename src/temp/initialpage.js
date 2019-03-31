@@ -9,7 +9,7 @@ let initPage = {
      </div>
     <form class= "form-init" >
     <div class="btn-div btn-bottom">
-      <a href="#/post" id="button-to-create-new-user" type="text/html"
+      <a href="#/song" id="button-to-create-new-user" type="text/html"
       class= "button center-text green">DEMUÉSTRALO! </a>
     </div>
     </form>

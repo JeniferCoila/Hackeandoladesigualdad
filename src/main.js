@@ -2,14 +2,14 @@
 // CAMBIO DE HASH Y MANPULACIÓN DE PANTALLAS
 // se exportan templates 
 import initPage from './temp/initialpage.js';
-import post from './temp/posts.js';
+import song from './temp/songs.js';
 import Utils from './services/Utils.js';
 import Error404 from './temp/error404.js';
 
 // se definen rutas 
 const routes = {
   '/': initPage
-  , '/post': post
+  , '/song': song
 };
 
 // renderiza el template actual segpun el hash
