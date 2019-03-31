@@ -24,8 +24,8 @@ let song = {
   <div class= "container-cover green-cover"></div>
   <div class= "container-cover dark-green"></div>
   <div class= "hands-container"> 
-  <a href= "#/yes" class= "hand positive"> </a>
-  <a href= "#/no"class= "hand negative"> </a>  </div>
+  <a href= "" class= "hand positive"> </a>
+  <a href= ""class= "hand negative"> </a>  </div>
   </section> `;
   
     return view;
